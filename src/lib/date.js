@@ -7,7 +7,7 @@ function getRemaingTime(targetDate) {
   const hours = Math.floor(distance / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  return { hours, minutes, seconds }
+  return { hours, minutes, seconds, remainingTime: distance }
 }
 
 export { getRemaingTime };

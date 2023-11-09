@@ -8,7 +8,7 @@ const x = setInterval(function () {
   const remainingTime = getRemaingTime(targetDate)
   updateCoutdownInScreen(remainingTime)
 
-  if (distance < 0) {
+  if (remainingTime < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "¡Tiempo expirado!";
   }
