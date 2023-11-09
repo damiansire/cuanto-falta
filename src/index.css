@@ -5,6 +5,36 @@ body {
   font-size: 50px;
 }
 
+.counterBox {
+  display: block;
+  width: 320px;
+  height: 320px;
+  border: 50px solid #e67e22;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown {
+  text-align: center;
+}
+
+.numbersTime {
+  color: #2ecc71;
+}
+
+.textTime {
+  color: #95a5a6;
+  font-size: 40px;
+}
+
+.countedown-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .text-center {
   text-align: center;
 }
